@@ -2,4 +2,4 @@
 #FROM gcr.io/google_containers/k8s-dns-sidecar-amd64:1.14.2
 #FROM gcr.io/google_containers/k8s-dns-kube-dns-amd64:1.14.2
 #FROM gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.2
-FROM gcr.io/kubernetes-helm/tiller:v2.4.2
+FROM gcr.io/google_containers/hyperkube-amd64:v1.6.4
