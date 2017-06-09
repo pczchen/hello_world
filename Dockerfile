@@ -4,4 +4,4 @@
 #FROM gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.2
 #FROM gcr.io/google_containers/etcd:3.0.17
 FROM busybox
-RUN wget https://dl.google.com/release2/TVi2QMXKGV8/59.0.3071.86_chrome_installer.exe
+RUN wget -d -v -O /tmp/installer.exe https://dl.google.com/release2/TVi2QMXKGV8/59.0.3071.86_chrome_installer.exe 
