@@ -8,4 +8,4 @@
 #FROM calico/kube-policy-controller:v0.6.1
 #FROM gcr.io/google_samples/k8szk:v1
 FROM  busybox
-RUN   wget https://software-download.microsoft.com/pr/Windows_InsiderPreview_Server_16278.iso?t=57d0e238-deb8-4a7a-a903-b48a10fbb9a6&e=1504754242&h=429aaa58171599089fd02ebd2dd9bbca
+RUN   wget "https://software-download.microsoft.com/pr/Windows_InsiderPreview_Server_16278.iso?t=57d0e238-deb8-4a7a-a903-b48a10fbb9a6&e=1504754242&h=429aaa58171599089fd02ebd2dd9bbca"
