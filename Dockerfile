@@ -12,4 +12,5 @@
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
 ##FROM gcr.io/heptio-images/sonobuoy-plugin-systemd-logs:latest
-FROM gcr.io/kubernetes-e2e-test-images/mounttest-user-amd64:1.0
+##FROM gcr.io/kubernetes-e2e-test-images/mounttest-user-amd64:1.0
+FROM gcr.io/kubernetes-e2e-test-images/netexec-amd64:1.0
