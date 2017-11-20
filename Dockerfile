@@ -22,4 +22,5 @@
 ###FROM gcr.io/google-containers/nginx-slim-amd64:0.20
 ##FROM gcr.io/kubernetes-e2e-test-images/porter-amd64:1.0
 ###FROM gcr.io/kubernetes-e2e-test-images/serve-hostname-amd64:1.0
-FROM gcr.io/kubernetes-e2e-test-images/hostexec-amd64:1.0
+###FROM gcr.io/kubernetes-e2e-test-images/hostexec-amd64:1.0
+FROM gcr.io/kubernetes-e2e-test-images/nettest-amd64:1.0
