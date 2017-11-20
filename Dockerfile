@@ -18,4 +18,5 @@
 ##FROM gcr.io/kubernetes-e2e-test-images/liveness-amd64:1.0
 ###FROM gcr.io/kubernetes-e2e-test-images/entrypoint-tester-amd64:1.0
 ##FROM gcr.io/kubernetes-e2e-test-images/test-webserver-amd64:1.0  ######    
-FROM gcr.io/kubernetes-e2e-test-images/dnsutils-amd64:1.0
+##FROM gcr.io/kubernetes-e2e-test-images/dnsutils-amd64:1.0
+FROM gcr.io/google-containers/nginx-slim-amd64:0.20
