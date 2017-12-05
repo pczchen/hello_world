@@ -1,7 +1,7 @@
 %global KUBE_VERSION 1.6.2
 %global CNI_RELEASE 0799f5732f2a11b329d9e3d51b9c8f2e3759f2ff
 %global RPM_RELEASE 0
-%global ARCH amd64
+%global ARCH amd64 ARM64
 
 Name: kubelet
 Version: %{KUBE_VERSION}
