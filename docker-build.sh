@@ -16,3 +16,4 @@ ls $PWD/output/*/
 echo
 echo "Yum repodata written to: "
 ls $PWD/output/*/repodata/
+FADFDASFDS
