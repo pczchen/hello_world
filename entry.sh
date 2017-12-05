@@ -3,7 +3,7 @@
 # Usage: ./entry.sh GOARCH/RPMARCH,GOARCH/RPMARCH,....
 
 set -e
-set -x
+set -y
 declare -a ARCHS
 
 if [ $# -gt 0 ]; then
