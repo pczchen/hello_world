@@ -9,9 +9,7 @@
 #FROM gcr.io/google_samples/k8szk:v1
 FROM  busybox
 ##RUN   wget "https://software-download.microsoft.com/pr/Windows10_InsiderPreview_EnterpriseVL_x64_zh-cn_16251.iso?t=dd2d22ec-fc99-414b-abc2-d53c9bc188f3&e=1504840276&h=0ce466ae6f18b420d37879c835c1b2a1"
-RUN wget https://cdn.rawgit.com/docker/notary/09f81717080f53276e6881ece57cbbbf91b8e2a7/docs/images/key-hierarchy.svg
-RUN wget https://cdn.rawgit.com/docker/notary/27469f01fe244bdf70f34219616657b336724bc3/docs/images/metadata-sequence.svg
-RUN wget https://cdn.rawgit.com/docker/notary/09f81717080f53276e6881ece57cbbbf91b8e2a7/docs/images/service-architecture.svg
+RUN wget https://github.com/openshift/origin/releases/download/v3.7.0/openshift-origin-server-v3.7.0-7ed6862-linux-64bit.tar.gz
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
 ##FROM gcr.io/heptio-images/sonobuoy-plugin-systemd-logs:latest
