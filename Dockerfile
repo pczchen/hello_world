@@ -8,7 +8,7 @@
 #FROM calico/kube-policy-controller:v0.6.1
 #FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.8.1
 FROM  centos
-RUN   curl -L -o rhel.iso "https://access.cdn.redhat.com/content/origin/files/sha256/00/005d4f88fff6d63b0fc01a10822380ef52570edd8834321de7be63002cc6cc43/rhel-8.0-x86_64-dvd.iso?_auth_=1557297424_39b804560f9bcb394fb5c9b06427e0ca"
+RUN   curl -L -o K8S.V1.14.1.tar.gz "https://dl.k8s.io/v1.14.1/kubernetes-server-linux-amd64.tar.gz"
 #RUN wget http://cdimage.ubuntu.com/lubuntu/releases/artful/release/lubuntu-17.10-desktop-i386.iso
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
