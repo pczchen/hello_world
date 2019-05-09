@@ -7,8 +7,8 @@
 #FROM gcr.io/google_containers/nginx-ingress-controller:0.9.0-beta.8
 #FROM calico/kube-policy-controller:v0.6.1
 #FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.8.1
-FROM  centos
-RUN   curl -L -o K8S.V1.14.1.tar.gz "https://dl.k8s.io/v1.14.1/kubernetes-server-linux-amd64.tar.gz"
+FROM  k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1
+#RUN   curl -L -o K8S.V1.14.1.tar.gz "https://dl.k8s.io/v1.14.1/kubernetes-server-linux-amd64.tar.gz"
 #RUN wget http://cdimage.ubuntu.com/lubuntu/releases/artful/release/lubuntu-17.10-desktop-i386.iso
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
