@@ -9,7 +9,7 @@
 #FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.8.1
 #FROM  k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1
 FROM   busybox
-RUN   curl -L -o harbor-installer-v1.8.0.tgz "https://storage.googleapis.com/harbor-releases/release-1.8.0/harbor-offline-installer-v1.8.0.tgz"
+RUN   wget -O harbor-installer-v1.8.0.tgz "https://storage.googleapis.com/harbor-releases/release-1.8.0/harbor-offline-installer-v1.8.0.tgz"
 #RUN wget http://cdimage.ubuntu.com/lubuntu/releases/artful/release/lubuntu-17.10-desktop-i386.iso
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
