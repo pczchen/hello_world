@@ -9,7 +9,7 @@
 #FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.8.1
 #FROM  k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1
 FROM   busybox
-RUN   wget -O chrome.exe "https://www.google.com/chrome/browser/thankyou.html?standalone=1&platform=win&installdataindex=defaultbrowser&extra=stablechannel"
+RUN   wget -O k8s.1.15.0.tar.gz "https://dl.k8s.io/v1.15.0/kubernetes-server-linux-amd64.tar.gz"
 #RUN wget http://cdimage.ubuntu.com/lubuntu/releases/artful/release/lubuntu-17.10-desktop-i386.iso
 ##FROM  gcr.io/heptio-images/kube-conformance:v1.8
 ##FROM  gcr.io/heptio-images/sonobuoy:v0.9.0
