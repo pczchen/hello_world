@@ -1,4 +1,4 @@
-#FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.1
+#FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.1 1111111111111111
 #FROM gcr.io/google_containers/k8s-dns-sidecar-amd64:1.14.4
 #FROM  gcr.io/google_containers/k8s-dns-kube-dns-amd64:1.14.4
 #FROM gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.4
